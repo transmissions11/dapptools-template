@@ -1,14 +1,14 @@
 {
-  "name": "@rari-capital/vaults",
+  "name": "dapptools-template",
   "license": "AGPL-3.0-only",
   "version": "1.0.0",
-  "description": "Flexible, minimalist, and gas-optimized yield aggregator protocol for earning interest on any ERC20 token.",
+  "description": "Streamlined template for getting started with DappTools and Solmate.",
   "files": [
     "src/**/*.sol"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rari-Capital/vaults.git"
+    "url": "git+https://github.com/transmissions11/dapptools-template.git"
   },
   "devDependencies": {
     "prettier": "^2.3.1",

@@ -1,11 +1,11 @@
-# vaults
+# dapptools-template
 
-Flexible, minimalist, and gas-optimized yield aggregator protocol for earning interest on any ERC20 token.
+Streamlined template for getting started with DappTools and Solmate.
 
 ## Getting Started
 
 ```sh
-git clone https://github.com/Rari-Capital/vaults.git
-cd vaults
+git clone https://github.com/transmissions11/dapptools-template.git
+cd dapptools-template
 make
 ```
