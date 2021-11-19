@@ -1,2 +1,2 @@
-test_basic_sanity() (gas: 213)
-testFail_basic_sanity() (gas: 2034)
+testFailSanity() (gas: 2068)
+testSanity() (gas: 201)

@@ -5,4 +5,12 @@ import {DSTestPlus} from "solmate/test/utils/DSTestPlus.sol";
 
 contract ContractTest is DSTestPlus {
     function setUp() public {}
+
+    function testSanity() public {
+        assertTrue(true);
+    }
+
+    function testFailSanity() public {
+        assertTrue(false);
+    }
 }
