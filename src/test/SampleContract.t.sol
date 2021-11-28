@@ -3,8 +3,14 @@ pragma solidity 0.8.10;
 
 import {DSTestPlus} from "solmate/test/utils/DSTestPlus.sol";
 
-contract ContractTest is DSTestPlus {
-    function setUp() public {}
+import {SampleContract} from "../SampleContract.sol";
+
+contract SampleContractTest is DSTestPlus {
+    SampleContract sampleContract;
+
+    function setUp() public {
+        sampleContract = new SampleContract();
+    }
 
     function testSanity() public {
         assertTrue(true);
