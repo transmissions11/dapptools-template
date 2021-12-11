@@ -1,2 +1,2 @@
-testFailSanity() (gas: 2068)
-testSanity() (gas: 201)
+testFunc2() (gas: 792)
+testFunc1() (gas: 824)

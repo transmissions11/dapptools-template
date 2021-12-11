@@ -12,11 +12,11 @@ contract SampleContractTest is DSTestPlus {
         sampleContract = new SampleContract();
     }
 
-    function testSanity() public {
-        assertTrue(true);
+    function testFunc1() public {
+        sampleContract.func1(1337);
     }
 
-    function testFailSanity() public {
-        assertTrue(false);
+    function testFunc2() public {
+        sampleContract.func2(1337);
     }
 }
